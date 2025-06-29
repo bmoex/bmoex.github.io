@@ -1,0 +1,25 @@
+- company: "Rotterdam School of Management, Erasmus University"
+  role: "Software Developer"
+  logo: "rsm.svg"
+  website: "https://www.rsm.nl/"
+  descriptions:
+    - "Specialization in TYPO3 and Laravel, focusing on technical development and implementation."
+    - "Handling complex technical challenges, conducted code reviews, and supported continuous integration."
+    - "Assisting colleagues and contributed to technical decision-making across projects."
+
+- company: "Youwe"
+  role: "Senior Web Developer"
+  logo: "youwe.svg"
+  website: "https://www.youwe.com/"
+  descriptions:
+    - "Overseeing technical aspects of web projects, from server optimization to implementation."
+    - "Providing project guidance and played a role in project management."
+    - "Focusing on ensuring stable and efficient delivery of custom web solutions."
+
+- company: "Redkiwi"
+  role: "Senior Web Developer"
+  logo: "redkiwi.svg"
+  website: "https://www.redkiwi.com/"
+  descriptions:
+    - "Managing and developed technical solutions, led project development, and maintained server infrastructure."
+    - "Supporting project development and service delivery; participated in an improvement project involving operations in Romania." 

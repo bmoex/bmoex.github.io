@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   viewBox="0 0 900 650"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="redkiwi.svg"
+   width="900"
+   height="650"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.417193"
+     inkscape:cx="-92.283428"
+     inkscape:cy="306.81243"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg17" />
+  <g
+     transform="matrix(3.4782609,0,0,3.4782609,40.462605,245)"
+     id="g15">
+    <path
+       fill="#e30613"
+       d="M 0,46 H 46.343 V 0 H 0 Z m 14.685,-6.395 c -2.341,0 -4.236,-1.881 -4.236,-4.205 0,-2.324 1.895,-4.205 4.236,-4.205 2.341,0 4.236,1.881 4.236,4.205 0,2.324 -1.895,4.205 -4.236,4.205 z m 21.21,-22.886 c 0,7.1 -2.88,11.029 -8.142,13.162 l 8.141,9.667 H 25.647 L 18.609,31.209 V 23.124 H 10.468 V 20.91 c 0,-8.958 5.407,-14.52 14.114,-14.52 h 3.171 v 8.086 h -3.171 c -2.95,0 -5.973,0.767 -5.973,6.434 v 2.214 h 3.157 c 3.584,-0.005 5.987,-1.305 5.987,-6.41 v -2.243 h 8.141 v 2.249 z"
+       id="path9" />
+    <g
+       transform="translate(57,9)"
+       id="g13">
+      <path
+         fill="#e30613"
+         d="M 7.746,17.465 H 6.988 V 29.037 H 0 V 0 h 12.29 c 6.399,0 10.396,3.675 10.396,8.732 0,4.218 -2.903,7.564 -7.62,8.482 l 8.251,11.823 h -7.83 L 7.742,17.465 Z M 6.988,12.537 h 5.091 c 2.356,0 3.745,-1.211 3.745,-3.216 0,-2.004 -1.389,-3.215 -3.745,-3.215 H 6.99 v 6.435 -0.004 z m 42.095,10.445 v 6.055 H 28.837 V 0 H 48.872 V 6.06 H 35.863 v 5.22 H 47.27 v 6.06 H 35.863 v 5.642 z M 81.913,14.5 c 0,8.9 -6.147,14.537 -15.066,14.537 H 55.23 V 0 h 11.617 c 8.923,0 15.066,5.596 15.066,14.496 m -7.115,0.083 c 0,-5.47 -3.281,-8.398 -8.166,-8.398 h -4.376 v 16.671 h 4.376 c 4.88,0 8.166,-2.923 8.166,-8.273 z M 104.435,29.037 94.123,15.794 v 13.243 h -7.03 V 0 h 7.03 V 12.662 L 104.225,0 h 8.04 l -11.242,14.166 11.41,14.871 z M 123.574,0 h -7.03 v 29.037 h 7.03 z m 43.302,0 -6.61,29.037 h -8.335 l -4.375,-19.26 -4.464,19.26 h -8.247 L 128.193,0 h 6.947 L 139.095,20.764 143.727,0 h 7.615 L 155.974,20.848 159.929,0 Z m 11.608,0 h -7.03 v 29.037 h 7.03 z"
+         id="path11" />
+    </g>
+  </g>
+</svg>

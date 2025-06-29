@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    {% seo %}
+
+    <link rel="icon" href="{{ 'favicon.ico' | relative_url }}" type="any">
+    <link rel="icon" href="{{ '/assets/icons/icon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ '/assets/icons/favicon.png' | relative_url }}">
+
+    <link rel="manifest" href="{{ '/assets/meta/site.webmanifest' | relative_url }}">
+    <meta name="theme-color" content="#fafafa">
+
+    <script src="https://use.fontawesome.com/releases/v6.7.2/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400i,700,700i" rel="stylesheet"
+          type="text/css"/>
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+</head>
+<body id="page-top">
+
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ '/' | relative_url }}">Home</a>
+                </li>
+                {% if site.posts.size > 0 %}
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ '/blog/' | relative_url }}">Blog</a>
+                </li>
+                {% endif %}
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ '/contact/' | relative_url }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{{ content }}
+
+<footer class="footer ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                <h4 class="text-uppercase mb-4">Development</h4>
+                <p class="lead mb-0">
+                    Always focus on user interaction when developing software, they are using it!
+                </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                {% for link in site.author.links %}
+                <a class="btn btn-outline-light btn-social mx-1" href="{{ link.url }}"
+                   title="{{ link.label }}" target="_blank"><i class="{{ link.icon }}"></i></a>
+                {% endfor %}
+            </div>
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">Register</h4>
+                <dl class="lead mb-0 footer-listing company-info row">
+                    <dt class="col-sm-3">KvK:</dt>
+                    <dd class="col-sm-9">{{ site.company.kvk }}</dd>
+                    <dt class="col-sm-3">BTW:</dt>
+                    <dd class="col-sm-9">{{ site.company.btw }}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright py-4 text-center text-white">
+    <div class="container"><small>Copyright &copy; {{ site.author.name }} {{ 'now' | date: "%Y" }}</small></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+</body>
+
+</html> 

@@ -1,0 +1,31 @@
+- name: "PHP"
+  level: "primary"
+  proficiency: "Expert"
+
+- name: "MySQL"
+  level: "primary"
+  proficiency: "Expert"
+
+- name: "HTML/CSS"
+  level: "primary"
+  proficiency: "Expert"
+
+- name: "JavaScript"
+  level: "primary"
+  proficiency: "Expert"
+
+- name: "Laravel"
+  level: "success"
+  proficiency: "Advanced"
+
+- name: "Atlassian Stack"
+  level: "secondary"
+  proficiency: "Proficient"
+
+- name: "Adobe Photoshop"
+  level: "secondary"
+  proficiency: "Proficient"
+
+- name: "GitHub"
+  level: "secondary"
+  proficiency: "Daily Use" 

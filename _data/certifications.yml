@@ -1,0 +1,5 @@
+- name: "Scrummaster"
+  issuer: "by Scrum.org as Scrum Alliance"
+
+- name: "TYPO3"
+  issuer: "TYPO3 CMS Certified Developer (TCCD) and Integrator (TCCI)" 

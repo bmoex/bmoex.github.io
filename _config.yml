@@ -1,0 +1,58 @@
+# Site settings
+title: "Benjamin Serfhos"
+description: "Software Developer — TYPO3 Specialist"
+url: "https://serfhos.com"
+locale: 'en_GB'
+
+# Author information
+author:
+  name: "Benjamin Serfhos"
+  url: "https://serfhos.com/"
+  email: "benjamin@serfhos.com"
+  bio: "Software Developer — TYPO3 Specialist"
+  location: "Netherlands"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://www.github.com/bmoex"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/benjamins"
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:benjamin@serfhos.com"
+    - label: "vCard"
+      icon: "far fa-address-card"
+      url: "/assets/meta/serfhos.vcard"
+
+social:
+  name: Benjamin Serfhos
+  links:
+    - https://www.linkedin.com/in/benjamins
+    - https://www.github.com/bmoex
+
+# Company information
+company:
+  kvk: "65465687"
+  btw: "NL001732038B19"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
