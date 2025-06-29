@@ -1,21 +1,8 @@
 ---
 layout: default
 title: Blog
+excerpt:  Welkom op mijn blog waar ik inzichten deel over software ontwikkeling, TYPO3, Laravel en web technologieën.
 ---
-
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-        <h1 class="masthead-heading text-uppercase mb-0">Blog</h1>
-
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-        </div>
-
-        <p class="masthead-subheading font-weight-light mb-0">
-            Welcome to my blog where I share personal insights about my software development.
-        </p>
-    </div>
-</header>
 
 <section class="page-section" id="posts">
     <div class="container">
@@ -25,15 +12,15 @@ title: Blog
                 {% for post in site.posts %}
                 <article class="mb-5">
                     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                    <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p class="text-muted">{{ post.date | date: "%d %B %Y" }}</p>
                     {% if post.excerpt %}
                     <p>{{ post.excerpt }}</p>
                     {% endif %}
-                    <a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a>
+                    <a href="{{ post.url | relative_url }}" class="btn btn-primary">Lees Meer</a>
                 </article>
                 {% endfor %}
                 {% else %}
-                <p class="text-center">No blog posts yet. Check back soon!</p>
+                <p class="text-center">Nog geen blog berichten. Kom binnenkort terug!</p>
                 {% endif %}
             </div>
         </div>

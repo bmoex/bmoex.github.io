@@ -3,23 +3,23 @@
   logo: "rsm.svg"
   website: "https://www.rsm.nl/"
   descriptions:
-    - "Specialization in TYPO3 and Laravel, focusing on technical development and implementation."
-    - "Handling complex technical challenges, conducted code reviews, and supported continuous integration."
-    - "Assisting colleagues and contributed to technical decision-making across projects."
+    - "Specialisatie in TYPO3 en Laravel, gericht op technische ontwikkeling en implementatie."
+    - "Behandeling van complexe technische uitdagingen, uitvoering van code reviews en ondersteuning van continuous integration."
+    - "Assisteren van collega's en bijdragen aan technische besluitvorming in projecten."
 
 - company: "Youwe"
   role: "Senior Web Developer"
   logo: "youwe.svg"
   website: "https://www.youwe.com/"
   descriptions:
-    - "Overseeing technical aspects of web projects, from server optimization to implementation."
-    - "Providing project guidance and played a role in project management."
-    - "Focusing on ensuring stable and efficient delivery of custom web solutions."
+    - "Toezicht houden op technische aspecten van webprojecten, van serveroptimalisatie tot implementatie."
+    - "Projectbegeleiding en een rol spelen in projectmanagement."
+    - "Focussen op het waarborgen van stabiele en efficiënte levering van maatwerk weboplossingen."
 
 - company: "Redkiwi"
   role: "Senior Web Developer"
   logo: "redkiwi.svg"
   website: "https://www.redkiwi.com/"
   descriptions:
-    - "Managing and developed technical solutions, led project development, and maintained server infrastructure."
-    - "Supporting project development and service delivery; participated in an improvement project involving operations in Romania." 
+    - "Beheren en ontwikkelen van technische oplossingen, leiden van projectontwikkeling en onderhouden van serverinfrastructuur."
+    - "Ondersteunen van projectontwikkeling en service delivery; deelname aan een verbeterproject met betrekking tot operaties in Roemenië." 

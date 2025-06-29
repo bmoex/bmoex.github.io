@@ -2,7 +2,7 @@
 title: "Benjamin Serfhos"
 description: "Software Developer — TYPO3 Specialist"
 url: "https://serfhos.com"
-locale: 'en_GB'
+locale: 'nl_NL'
 
 # Author information
 author:
@@ -10,7 +10,7 @@ author:
   url: "https://serfhos.com/"
   email: "benjamin@serfhos.com"
   bio: "Software Developer — TYPO3 Specialist"
-  location: "Netherlands"
+  location: "Nederland"
   links:
     - label: "GitHub"
       icon: "fab fa-github"

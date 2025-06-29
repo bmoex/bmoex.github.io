@@ -30,7 +30,7 @@
         <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Navigatie in- en uitklappen">
             Menu
             <i class="fas fa-bars"></i>
         </button>
@@ -52,6 +52,24 @@
     </div>
 </nav>
 
+{% if page.title %}
+<header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="masthead-heading text-uppercase mb-0">{{ page.title }}</h1>
+
+        {% if page.excerpt %}
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <p class="masthead-subheading font-weight-light mb-0">
+            Neem contact met me op voor samenwerkingsmogelijkheden of gewoon om hallo te zeggen.
+        </p>
+        {% endif %}
+    </div>
+</header>
+{% endif %}
+
 {{ content }}
 
 <footer class="footer ">
@@ -60,11 +78,11 @@
             <div class="col-lg-4 mb-5 mb-lg-0 text-center">
                 <h4 class="text-uppercase mb-4">Development</h4>
                 <p class="lead mb-0">
-                    Always focus on user interaction when developing software, they are using it!
+                    Focus altijd op gebruikersgemak bij het ontwikkelen van software, zij gebruiken het!
                 </p>
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0 text-center">
-                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                <h4 class="text-uppercase mb-4">Rondom het web</h4>
                 {% for link in site.author.links %}
                 <a class="btn btn-outline-light btn-social mx-1" href="{{ link.url }}"
                    title="{{ link.label }}" target="_blank"><i class="{{ link.icon }}"></i></a>

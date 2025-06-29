@@ -1,44 +1,31 @@
 ---
 layout: default
 title: Contact
+excerpt: Neem contact met me op voor samenwerkingsmogelijkheden of gewoon om hallo te zeggen.
 ---
-
-
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-        <h1 class="masthead-heading text-uppercase mb-0">Contact</h1>
-
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-        </div>
-
-        <p class="masthead-subheading font-weight-light mb-0">
-            Get in touch with me for collaboration opportunities or just to say hello.
-        </p>
-    </div>
-</header>
 
 <section class="page-section" id="contact-info">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h3>Contact Information</h3>
+                <h3>Contactgegevens</h3>
                 <div class="mb-4">
                     <h5>Email</h5>
                     <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
                 </div>
                 <div class="mb-4">
-                    <h5>Social Media</h5>
+                    <h5>Sociale Media</h5>
                     <div class="d-flex gap-3">
                         {% for link in site.author.links %}
-                        <a class="btn btn-outline-primary btn-social" href="{{ link.url }}" title="{{ link.label }}" target="_blank">
+                        <a class="btn btn-outline-primary btn-social" href="{{ link.url }}" title="{{ link.label }}"
+                           target="_blank">
                             <i class="{{ link.icon }}"></i>
                         </a>
                         {% endfor %}
                     </div>
                 </div>
                 <div class="mb-4">
-                    <h5>Business Information</h5>
+                    <h5>Bedrijfsinformatie</h5>
                     <dl class="row">
                         <dt class="col-sm-3">KvK:</dt>
                         <dd class="col-sm-9">{{ site.company.kvk }}</dd>
@@ -48,24 +35,24 @@ title: Contact
                 </div>
             </div>
             <div class="col-lg-6">
-                <h3>Availability</h3>
+                <h3>Beschikbaarheid</h3>
                 <div class="alert alert-info">
-                    <h5 class="alert-heading">Not currently available for new projects</h5>
+                    <h5 class="alert-heading">Momenteel niet open voor werk</h5>
                     <p class="mb-0">
-                        Thank you for your interest! I'm currently not taking on projects or new client work.
-                        I'm focused on my current position and personal projects at the moment.
+                        Bedankt voor je interesse! Ik neem momenteel geen freelance projecten of nieuwe klanten aan.
+                        Ik focus me op mijn huidige rol en persoonlijke projecten.
                     </p>
                 </div>
                 <div class="mt-4">
-                    <h5>Still Want to Connect?</h5>
+                    <h5>Toch geïnterreseerd?</h5>
                     <p>
-                        Feel free to reach out via email or social media for:
+                        Neem gerust contact op via email of sociale media voor:
                     </p>
                     <ul>
-                        <li>Professional networking</li>
-                        <li>Technical discussions</li>
-                        <li>Collaboration opportunities (non-freelance)</li>
-                        <li>Just to say hello!</li>
+                        <li>Professioneel netwerken</li>
+                        <li>Technische discussies</li>
+                        <li>Samenwerkingsmogelijkheden (niet-freelance)</li>
+                        <li>Gewoon om hallo te zeggen!</li>
                     </ul>
                 </div>
             </div>
