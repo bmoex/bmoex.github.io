@@ -46,6 +46,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+include:
+  - ".well-known"
+
 # Exclude from processing
 exclude:
   - Gemfile
