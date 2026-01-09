@@ -1,0 +1,7 @@
+- name: "Erasmus University Rotterdam"
+  items:
+    - label: "Intranet"
+      url: "https://my.eur.nl/"
+
+    - label: "Qualtrics"
+      url: "https://erasmusuniversity.eu.qualtrics.com/"
