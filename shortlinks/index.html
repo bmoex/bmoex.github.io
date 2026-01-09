@@ -15,7 +15,7 @@ robots: noindex, nofollow
                     </div>
                     <div class="list-group list-group-flush">
                         {% for link in section.items %}
-                        <a href="{{ link.url }}" class="list-group-item list-group-item-action" role="button">
+                        <a href="{{ link.url }}" class="list-group-item list-group-item-action" role="button" rel="noreferrer">
                             {{ link.label }}
                         </a>
                         {% endfor %}
